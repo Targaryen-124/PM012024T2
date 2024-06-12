@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombres" />
+
+    <TextView
+        android:id="@+id/tv_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Apellidos" />
+
+    <TextView
+        android:id="@+id/tv_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edad" />
+
+    <TextView
+        android:id="@+id/tv_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correo Electrónico" />
+
+    <TextView
+        android:id="@+id/tv_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dirección" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_actualizar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#2196F3"
+            android:text="Actualizar" />
+
+        <Button
+            android:id="@+id/btn_eliminar"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:backgroundTint="#FF0000"
+            android:text="Eliminar" />
+    </LinearLayout>
+</LinearLayout>
