@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/et_nombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombres"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/et_apellidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Apellidos"
+        android:layout_below="@id/et_nombres"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/et_edad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Edad"
+        android:inputType="number"
+        android:layout_below="@id/et_apellidos"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/et_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correo Electrónico"
+        android:inputType="textEmailAddress"
+        android:layout_below="@id/et_edad"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/et_direccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dirección"
+        android:layout_below="@id/et_correo"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_direccion"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#8BC34A"
+        android:text="Guardar" />
+
+    <Button
+        android:id="@+id/btn_ver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_salvar"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#2196F3"
+        android:text="Ver Personas" />
+
+</RelativeLayout>
