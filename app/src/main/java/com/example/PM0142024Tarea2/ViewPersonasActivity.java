@@ -11,7 +11,7 @@ public class ViewPersonasActivity extends AppCompatActivity {
     private PersonasDBHelper dbHelper;
     private RecyclerView recyclerView;
     private PersonasAdapter adapter;
-
+//pjgh
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
